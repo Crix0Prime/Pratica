@@ -1,0 +1,186 @@
+/*Cuando yo utilizao * nos indica que este estilo sera aplicado a toda la pagina*/
+*{
+    margin: 0;
+    padding: 0;
+}
+/* . ESTE SIMBOLO SE UTILIZA PARA ASIGNAR ESTILOS POR CLASS (ATRIBUTOS DE LOS TAG HTML)*/
+.text-center{
+    text-align: center;
+}
+/* con . PARA CLASES ASIGNAR COLOR DE FONDO AL HEADER*/
+.fondo {
+    height: 1200px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("Imagen/aaaa.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 500px;
+    width: 100%;
+}
+/* centrado y color de las letras */
+.text-fondo{
+    height: 350px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.text-60{
+    font-size: 60px;
+    text-shadow: 0 0 10px rgb(0, 0, 0);
+}
+.text-40{
+    font-size: 40px;
+    text-shadow: 0 0 10px rgb(0, 0, 0);
+}
+/* secicion informacion */
+.info{
+    background-color:  yellowgreen;
+    color: rgb(0, 0, 0);
+}
+.contenedor{
+    width: 100%;
+    padding: 80px 0;
+    margin: auto;
+    background-color: #333;  
+}
+.titulo-info{
+    font-size: 35px;
+    font-weight: 300px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+    text-shadow: 0 0 10px rgb(0, 0, 0);
+    
+}
+.parrafo{
+    text-align: justify;
+    margin-bottom: 15px;
+}
+/* fin seccion informacion */
+/* seccion carta */
+.carta{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.cards{
+    width: 30%;
+    box-shadow: 0 0 10px rgb(0, 0, 0) ;
+    text-align: center;
+    transform: scale(1);
+    transition: transform 0.3s;
+    border-radius: 10px;
+    background-color: rgb(145, 143, 143);  
+
+}
+.cards:hover{
+    box-shadow: 0 0 10px black;
+    transform: scale(1.1);
+}
+.cards p{
+    font-size: 25px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+.cards i{
+    color: rgb(120, 0, 200);
+    font-size: 50px;
+    margin: 30px ;
+    
+}
+.cards h3{
+    padding: 25px;
+}
+.botom{
+    background-color: rebeccapurple;
+    color: rgb(0, 0, 0);
+    padding: 20px 10px;
+    border: 1px solid darkgreen;
+    margin-bottom: 30px;
+    cursor: pointer;
+    display: inline-block;
+    width: 200px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.botom:hover{
+ background-color: rgb(153, 20, 255);
+ color: rgb(0, 0, 0);
+ border: 1px solid;
+}
+.galeria{
+    background-color: yellowgreen;  
+    padding-top: 15px;  
+}
+.contenedor-galaria{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:  space-evenly;
+    overflow: hidden;
+}
+.contenedor-galaria img{
+    width: 30%;
+    margin-bottom:  30px;
+    box-shadow:  0 0 15px black;
+    cursor: pointer;
+    overflow: auto;
+}
+.menu{
+    list-style-type: none;
+    background-color: yellowgreen;
+    width: 100%;
+    position: fixed;
+    overflow: auto;
+}
+.menu li{
+    float: left;
+}
+.menu li a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px 15px;
+    text-align:  center;
+    font-size:  20px;
+    font-weight: 700;
+}
+.menu li:hover{
+    background-color: rgb(148, 193, 0);
+
+}
+
+.formulario {
+    max-width: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #424242;
+    border-radius: 5px;
+    background-color: #4a4a4a;
+    color: rgb(255, 255, 255);
+}
+
+
+.formulario button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.pie-de-pagina {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.pie-de-pagina a {
+    color: white;
+}
